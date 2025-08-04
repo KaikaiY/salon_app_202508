@@ -13,5 +13,26 @@
  *= require_tree .
  *= require_self
  */
+ #external-events {
+  padding: 10px;
+  width: 200px;
+  background: #f0f0f0;
+  border: 1px solid #ccc;
+}
+
+.fc-event {
+  margin: 5px 0;
+  padding: 4px 6px;
+  background: #3788d8;
+  color: white;
+  cursor: move;
+}
+
+/* 20分スロットの1つあたりの高さを強制指定（例: 60px） */
+.fc-timegrid-slot {
+  height: 60px !important;
+}
+
+
 @import url('https://cdn.jsdelivr.net/npm/@fullcalendar/core@6.1.11/index.global.min.css');
 @import url('https://cdn.jsdelivr.net/npm/@fullcalendar/timegrid@6.1.11/index.global.min.css');
